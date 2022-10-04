@@ -1,6 +1,9 @@
 // import React from "react";
 import { useState } from "react";
-import axios from "axios"
+import axios from "axios";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+
 
 
 
@@ -21,8 +24,11 @@ function App(){
     <div className="container">
       <br></br>
       <button className="btn btn-primary btn-md">Get</button>
+   
       <br></br>
-      <div className="photos"></div>
+      <div className="photos">
+      <img src="https://media.wired.com/photos/5fb70f2ce7b75db783b7012c/master/pass/Gear-Photos-597589287.jpg" className="im1"></img>
+      </div> 
     </div>
   )
     
