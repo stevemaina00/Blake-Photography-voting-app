@@ -3,7 +3,7 @@ import React from "react";
 function App(){
   return(
     <>
-    <h1>Blake Photography Voting</h1>
+    <h1>Blake Photography Voting App</h1>
     </>
   )
 }
