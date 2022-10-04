@@ -13,9 +13,12 @@ function App(){
         Get Photos
       </button>
       <br></br>
+      <div className="photos">
+
+      </div>
 
     </div>
-    <Card />
+    
     
 
     </>

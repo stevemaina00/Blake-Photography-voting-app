@@ -12,9 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.Card>h1{
-  color: yellow;
-}
+
 
 .App-header {
   background-color: #282c34;
@@ -38,4 +36,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
