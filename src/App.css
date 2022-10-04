@@ -51,6 +51,9 @@
   height: 400px;
   width:300px;
 }
+.glyphicon{
+  background-color: yellow;
+}
 .photos{
   background-color:#e4e4e4;
   width: 1200px;
