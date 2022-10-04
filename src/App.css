@@ -40,7 +40,16 @@
   box-sizing: border-box;
 }
 .im1{
-  height: 50px;
+  height: 250px;
+  width: 200px;
+ margin: 50pX;
+
+  
+}
+.p{
+  background-color: white;
+  height: 400px;
+  width:300px;
 }
 .photos{
   background-color:#e4e4e4;
