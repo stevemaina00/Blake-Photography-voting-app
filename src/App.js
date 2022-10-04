@@ -1,27 +1,33 @@
-import React from "react";
-import  Card from "./Card"
+// import React from "react";
+import { useState } from "react";
+import axios from "axios"
+
+
 
 
 function App(){
+  const[images, setImages] = useState([]);
+  const fetchApi=async()=>{
+    const response = await axios.get('https://api.unsplash.com/photos/?client_id=  DZbtaFbKdLh4pktCB7lUo0yBFhlsL2jfTFq0aM-PykU');
+  
+    console.log(response.data)
+    const data = await response.data;
+    setImages(data)
+
+
+  }
 
   return(
-    <>
-    <h1>Blake Photography Voting App</h1>
     <div className="container">
       <br></br>
-      <button className="btn btn-primary btn-md">
-        Get Photos
-      </button>
+      <button className="btn btn-primary btn-md">Get</button>
       <br></br>
-      <div className="photos">
-
-      </div>
-
+      <div className="photos"></div>
     </div>
-    
-    
-
-    </>
   )
-}
-export default App;
+    
+  }
+
+ 
+
+export default App
