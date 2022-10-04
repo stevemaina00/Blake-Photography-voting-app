@@ -26,7 +26,7 @@ function App(){
     <div className="container">
       <h1>Blake Photography Voting</h1>
       <br></br>
-      <button className="btn btn-primary btn-md">Get</button>
+      {/* <button className="btn btn-primary btn-md">Get</button> */}
    
       <br></br>
       <div className="photos">
