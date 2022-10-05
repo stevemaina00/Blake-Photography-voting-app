@@ -23,7 +23,7 @@ function App(){
           db && db.map(d=>{
             return(
               <div className='box' key={d.id}>
-                <img src={d.icon} alt='' height={150} />
+                <img src={d.icon} alt='' height={150} width={120} />
                 <br />
                 {d.caption}
                 

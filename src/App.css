@@ -20,6 +20,7 @@
   color: white;
 }
 
+
 .whole{
   
   width: 100%;
@@ -73,4 +74,21 @@
 }
 body{
   background-color: yellow;
+}
+
+img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+  opacity: 0.5;
+}
+img:hover {
+  opacity: 1.0;
 }
