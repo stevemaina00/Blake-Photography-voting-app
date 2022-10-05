@@ -1,17 +1,17 @@
 [
     {
      "id":1,
-     "caption": "Icon 1",
+     "caption": "Photo by:Sebastian",
      "icon":"https://media.istockphoto.com/photos/arc-de-triomphe-from-the-sky-paris-picture-id1324189687?s=612x612"
     },
     {
         "id":2,
-        "caption": "Icon 2",
+        "caption": "Photo by:Sarah",
         "icon":"https://media.istockphoto.com/photos/arc-de-triomphe-from-the-sky-paris-picture-id1324189687?s=612x612"
     },
     {
         "id":3,
-        "caption": "Icon 3",
+        "caption": "Photo by:Seth",
         "icon":"https://media.istockphoto.com/photos/arc-de-triomphe-from-the-sky-paris-picture-id1324189687?s=612x612"
 
     }
