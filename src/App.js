@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Nav from './Nav'
 import db from './db.json'
+import Timer from "./Timer";
 
 import Footer from "./Footer";
 // import { Button } from "bootstrap";
@@ -17,6 +18,7 @@ function App(){
       <div>
         <Nav />
       </div>
+      <div><Timer /></div>
       <div className='whole'>
       <div className='inner'>
         {

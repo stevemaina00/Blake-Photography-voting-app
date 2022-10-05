@@ -1,11 +1,11 @@
 import React from "react";
 
 function Timer(){
-    const dateWithTime = new Date().toLocaleString().
+    const d = new Date();
+let text = d.toLocaleString();
     return(
-        <>
-        <p>{dateWithTime}</p>
-        </>
+        <p>{text}</p>
+
     )
 }
 export default Timer;
