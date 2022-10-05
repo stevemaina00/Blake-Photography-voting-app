@@ -20,8 +20,19 @@
   color: white;
 }
 
-.glyphicon{
-  color: yellow;
+.Footer{
+  display: flex;
+  list-style:none;
+  justify-content: space-around;
+  box-sizing: border-box;
+  height: 50px;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  font-size: large;
+  padding-top: 7px;
+  
+
 }
 .photos{
   background-color:#e4e4e4;
