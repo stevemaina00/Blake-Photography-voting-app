@@ -4,7 +4,7 @@ function Timer(){
     const d = new Date();
 let text = d.toLocaleString();
     return(
-        <p>{text}</p>
+        <p className="Time">{text}<bold>:</bold> Hover to get a clear view.</p>
 
     )
 }

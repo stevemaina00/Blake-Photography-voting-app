@@ -92,3 +92,7 @@ img {
 img:hover {
   opacity: 1.0;
 }
+.Time{
+  text-align: center;
+  font-size: medium;
+}
