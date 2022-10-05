@@ -7,7 +7,7 @@ import Nav from './Nav'
 import db from './db.json'
 
 import Footer from "./Footer";
-import { Button } from "bootstrap";
+// import { Button } from "bootstrap";
 
 function App(){
   const [count, setCount] = useState(0);
@@ -23,7 +23,7 @@ function App(){
           db && db.map(d=>{
             return(
               <div className='box' key={d.id}>
-                <img src={d.icon} alt='' height={75} />
+                <img src={d.icon} alt='' height={150} />
                 <br />
                 {d.caption}
                 

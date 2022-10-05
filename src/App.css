@@ -28,8 +28,11 @@
 
 }
 .inner{
-  display: flex;
+  /* display: flex; */
   justify-content: space-around;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+
   
 }
 
