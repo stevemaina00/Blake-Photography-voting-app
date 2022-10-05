@@ -7,7 +7,7 @@ function Nav(){
     return(
         <div>
             <ul className="Nav">
-                <li>Blake Photography Application</li>
+                <li>Blake Photography App</li>
                 <li>Home</li>
                 <li a href="./App">Vote</li>
                 <li>Contact Us</li>
