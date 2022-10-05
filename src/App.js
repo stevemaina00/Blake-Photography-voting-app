@@ -33,9 +33,9 @@ function App(){
       <br></br>
       <div className="photos">
         <div className="p">
-     <img src="https://media.wired.com/photos/5fb70f2ce7b75db783b7012c/master/pass/Gear-Photos-597589287.jpg" className="im1">
+     
       
-     </img>
+     
      
      {/* <button >
         <span class="glyphicon">&#xe125;</span>
