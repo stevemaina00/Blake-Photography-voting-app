@@ -7,11 +7,13 @@ import Nav from './Nav'
 import db from './db.json'
 
 import Footer from "./Footer";
+import { Button } from "bootstrap";
 
 function App(){
   const [count, setCount] = useState(0);
+
   return(
-    <div>
+    <div className="container"> 
       <div>
         <Nav />
       </div>
