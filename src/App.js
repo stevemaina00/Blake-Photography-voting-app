@@ -2,8 +2,8 @@
 import { useState } from "react";
 // import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import Nav from './Components/Nav'
+import './App.css'
+import Nav from './Nav'
 
 function App(){
 
